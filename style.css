@@ -1,0 +1,176 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    padding:0
+}
+
+.travelPhotoBook{
+    padding:0;
+    margin:0
+}
+
+hr{
+ border: 5px solid #fd9272;
+}
+
+/* navbar */
+.navbar{
+    font-size: large;
+    padding:5px 10px;
+    border-bottom: 2px solid #2E6467;
+    font-weight:bold;
+}
+
+.nav-link, .dropdown-item{
+    color: #fd9272;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    color: #2081d8;
+    text-transform:uppercase;
+}
+
+.dropdown-menu{
+    display:none;
+    padding:0;
+}
+
+.dropdown-item{
+    border:3px solid #fd9272;
+
+}
+/* intro */
+.intro{
+    background-image: url("assets/background.jpg");
+    background-size: cover;
+    height:70vh;
+    padding: 8% 20%;
+    display:flex;
+    justify-content: center;
+}
+
+.myBackground{
+    margin:10px;
+}
+
+.intro1{
+    display:flex;
+    justify-content: center;
+    padding:10px;
+    margin-top:40px;
+    margin-bottom:50px;
+    font-size:20px;
+    background-color: rgba(0,0,0,0.9);
+    color:white;
+    /* text-align: center; */
+}
+
+.btn{
+    color: #48BCD1;
+    background:rgba(255,255,255);
+    border-radius:30px;
+    font-weight:bold;
+    padding:0;
+    margin-top:60px
+}
+/* photos */
+/* .travelPhotoBook{ */
+    /* background-color: rgb(0,0,0); */
+    /* height:40vh; */
+    /* padding:0;
+    margin:0;
+} */
+
+.image ,
+.image .row div{    
+    padding:0;
+    margin:0;
+    position:relative;
+
+}
+
+.img-fluid{
+    height:30vh;
+    width:100%;
+}
+
+.description{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size:20px;
+    color:white;
+    text-align:center;
+    opacity:0;
+    transition:  opacity 0.5s;
+}
+
+.description--blur{
+    backdrop-filter: blur(3px);
+}
+
+.description:hover{
+    opacity:1
+}
+
+.location{
+    display:block;
+}
+
+
+/* hobbies */
+
+.hobbies0{
+    background-image: url("assets/background.jpg");
+    padding: 5vh 20%;
+    margin:0;
+    height:40vh;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    font-size:18px;
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* color:rgba(255,255,255,0) */
+    color:#1b67aa;
+}
+
+.headinng{
+    font-weight: bold;
+    color:black;
+}
+
+.bphoto{
+    width:100%
+}
+
+/* my contact */
+.myContact{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-image: url(assets/background.jpg);
+}
+
+.contactIcon{
+    margin:20px;
+    color:white
+}
+
+
+/* addclass */
+.bgWhite{
+    background: #fff;
+    border-bottom: solid 1px #fff;
+    opacity: 0.8;
+    transition: 0.9s;
+    height:100%
+}
